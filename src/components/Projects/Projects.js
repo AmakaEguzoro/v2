@@ -3,11 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/Untitled_design__4_-removebg-preview.png";
-import emotion from "../../Assets/Projects/Untitled_design__4_-removebg-preview.png";
 import editor from "../../Assets/Projects/Untitled_design__3_-removebg-preview.png";
 import chatify from "../../Assets/Projects/Untitled_design__2_-removebg-preview.png";
 import suicide from "../../Assets/Projects/Untitled_design__5_-removebg-preview.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -25,10 +23,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Planwella"
+              description="A Finance Planing App That Helps You Track Your Income And Expense At The Click Of A Button. This Web Application Is Powered By Speechly (Which Makes It Speech To Text)."
+              ghLink="https://github.com/AmakaEguzoro/planWella"
+              demoLink="https://plan-wella.netlify.app/"
             />
           </Col>
 
@@ -36,10 +34,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Planwella"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Nace Admin"
+              description="An Administrative Dashboard That Shows Most Important Features In React. From API Calls To Proper Grid Display And Routing."
+              ghLink="https://github.com/AmakaEguzoro/nace-admin-site"
+              demoLink="https://nace-admin-site.netlify.app/"
             />
           </Col>
 
@@ -47,23 +45,23 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Search Coin"
+              description="This React Application Allows Nigerian Users To View Various Coin Prices By Calling An End Point And Converting To Naira."
+              ghLink="https://github.com/AmakaEguzoro/crypto-search"
+              demoLink="https://search-coin.netlify.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Credit Card Validation App"
+              description="This Application Validates Credit Cards, Identifies If It Is A Mastercard, Visa Or Verve Card"
+              ghLink="https://github.com/AmakaEguzoro/CreditCard"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
