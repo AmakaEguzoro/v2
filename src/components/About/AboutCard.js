@@ -29,8 +29,8 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Dedication coupled with a working system and internet connection is
-            all you need to take your career to the next level!"{" "}
+            "Dedication coupled with a working computer and internet connection
+            is all you need to take your tech career to the next level!"{" "}
           </p>
           <footer className="blockquote-footer">Chimamaka</footer>
         </blockquote>
