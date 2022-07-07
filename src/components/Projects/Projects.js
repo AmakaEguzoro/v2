@@ -5,8 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/Untitled_design__4_-removebg-preview.png";
 import editor from "../../Assets/Projects/Untitled_design__3_-removebg-preview.png";
 import chatify from "../../Assets/Projects/Untitled_design__2_-removebg-preview.png";
-import suicide from "../../Assets/Projects/Untitled_design__5_-removebg-preview.png";
-
+import pushpay from "../../Assets/Projects/Untitled_design__6_-removebg-preview.png";
+import itex from "../../Assets/Projects/Untitled_design__7_-removebg-preview.png";
+import payvice from "../../Assets/Projects/Untitled_design__8_-removebg-preview.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -19,6 +20,37 @@ function Projects() {
           Here are some side projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pushpay}
+              isBlog={false}
+              title="PushPay"
+              description="A responsive Fintech landing page that displays all features of the app Pushpay. Created with react."
+              ghLink="https://github.com/AmakaEguzoro/pushpay"
+              demoLink="https://push-pay.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={itex}
+              isBlog={false}
+              title="ITEX Website"
+              description="The official website for ITEX Integrated Services Lagos. Created with React Js"
+              // ghLink="https://github.com/AmakaEguzoro/nace-admin-site"
+              demoLink="https://iisysgroup.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={payvice}
+              isBlog={false}
+              title="Payvice"
+              description="The landing page for Payvice web, A payment platform for users"
+              // ghLink="https://github.com/AmakaEguzoro/nace-admin-site"
+              demoLink="https://www.payvice.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
