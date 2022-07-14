@@ -32,8 +32,8 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I encourage young people to consider tech as a
-              career path by{" "}
+              Whenever possible, I encourage young people especially girls in
+              Nigeria to consider tech as a career path by{" "}
               <b className="purple">
                 creating tech related contents on instagram
               </b>{" "}
