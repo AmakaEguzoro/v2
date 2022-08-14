@@ -26,9 +26,10 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Responsive Web Applications </b> and
-                lately I've been picking interest in{" "}
-                <b className="purple">Web 3.0 and Blockchain.</b>
+                <b className="purple">Responsive Web Applications, </b> I am
+                presently participating in TECH4DEV Women Techster Fellowship
+                class of 2023{" "}
+                <b className="purple"> Web 3.0 and Blockchain track.</b>
               </i>
               <br />
               <br />
